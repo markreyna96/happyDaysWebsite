@@ -1,0 +1,117 @@
+html{
+	background-color: white;
+	font-family: 'Fresca', 'serif';
+	color:black;
+}
+
+.logo{
+	width: 250px;
+	display: block;
+	margin: auto;
+}
+
+.date{ 
+  float: right;
+}
+
+.menu_list{
+	list-style: none;
+	background-color: #CD6155;
+	height: 40px;
+
+}
+.menu_option{
+	display: inline-block;
+	width: 100px;
+}
+
+.link{
+  color: white;
+}
+
+.link:link{
+	text-decoration: none;
+	color: black;
+}
+
+.submenu_list{
+	list-style: none;
+	background-color: #F4D03F;
+	height: 80px;
+}
+
+.submenu_option{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80px;
+	height: 80px;
+	background-color: #F4D03F;
+}
+
+.icon{
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	background-color: #F4D03F;
+}
+
+.icon:hover{
+	background-color: #2980B9;
+}
+
+.iconButton{
+	margin:0;
+	padding: 0;
+	border: 0;
+	height: 80px;
+	width: 80px;
+}
+
+.iconButton:active{
+	background-color: white;
+}
+
+.iconButton:focus{
+	outline: none;
+}
+
+.submenu a{
+	margin: 0px;
+	padding: 0px;
+	height: 0px;
+	width: 0px;
+	background-color: transparent;
+}
+
+p{
+	color:black;
+}
+
+
+#moonjumpBlock{
+	display: block;
+	background-color: lightblue;
+}
+
+#waterslideBlock{
+	display: none;
+	background-color: lightblue;
+}
+
+#interactivesBlock{
+	display: none;
+	background-color: lightblue;
+}
+
+.blockImg{
+	height: 300px;
+	width: 300px;
+}
+
+
+
+
+
+
+

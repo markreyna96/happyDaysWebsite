@@ -1,0 +1,112 @@
+
+html
+{
+	background-color: white;
+	font-family: 'Fresca', 'serif';
+}
+
+p
+{
+	font-size: 22px;
+}
+
+ul{
+	font-size: 22px;
+}
+
+
+.logo
+{
+	width: 300px;
+	display: block;
+	margin: auto;
+}
+
+.menu_list
+{
+	margin-bottom: 50px;
+	list-style: none;
+	background-color: #E74C3C;
+	height: 50px;
+}
+.menu_option
+{
+	padding-left: 20px;
+	display: inline-block;
+	height: inherit;
+	width: 100px;
+	background-color: inherit;
+
+}
+.menu_option:hover
+{
+  background-color: #F5B7B1;
+}
+
+.link:hover{
+	color: black;
+}
+
+.link 
+{
+  color: white;
+  display: inline-block;/* must be inline-block for height to take effect*/
+  background-color: inherit;
+  text-decoration: none;
+  height: 50px;
+}
+.top3
+{
+	width: 410px;
+	height: 319px;
+}
+.tightwrap
+{
+	display: block;
+	margin:auto;
+	margin-bottom: 0px;
+	width: 1300px;
+}
+
+.companyDescription{
+	border-bottom: 15px double #FFD54F;
+	margin-bottom: 20px;
+}
+
+.companyDescription p{
+	margin-top: 0px;
+}
+
+h2{
+	background-color: #E1F5FE;
+	color: #01579B;
+}
+
+.bottomLeft
+{
+	float: left;
+	width: 400px;
+	background-color: #81D4FA;
+	height: 285px;
+}
+
+.bottomRight
+{
+	float: right;
+	width: 400px;
+	background-color: #81D4FA;
+	height: 285px;
+}
+.bottomCenter
+{
+	display: inline-block;
+	position: relative;
+	left: 30px;
+	width: 400px;
+	background-color: #81D4FA;
+	height: 285px;
+}
+.tightwrap
+{
+	margin: auto;
+}
