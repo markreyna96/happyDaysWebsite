@@ -3,12 +3,11 @@
 
 
 <head>
-	<!-- comment to learn git jibijj-->
 
 	<meta charset="UTF-8">
 	<title>Happy Days Party Rental</title>
 	<div id="header">
-	<img class="logo" src="./Pages/Images/tempLogo.jpg" alt="Logo">
+	<img class="logo" src="./tempLogo.jpg" alt="Logo">
 	<p class="date">Contact Information</p>
 	</div>
 	<script src="./happyDaysInflat.js" type="text/javascript"></script>
@@ -23,8 +22,8 @@
   	<ul class="menu_list">
       <li class="menu_option"><a class="link" href="./">Inflatables</a></li>
       <li class="menu_option"><a class="link" href="./">Equipment</a></li>
-      <li class="menu_option"><a class="link" href="./">undecided1</a></li>
-      <li class="menu_option"><a class="link" href="./">undecided2</a></li>
+      <!-- <li class="menu_option"><a class="link" href="./">undecided1</a></li> -->
+      <!-- <li class="menu_option"><a class="link" href="./">undecided2</a></li> -->
   	</ul>
   </div>
 
@@ -32,33 +31,52 @@
   	<ul class="submenu_list">
       <li class="submenu_option">
       	<button class="iconButton" id="moonjumpButton" value="0" type="button" onclick="inflatSubClick(value)">
-      		<img class="icon" src="./moonjumpIcon.png" alt="moonjump">
+      		<img class="icon" src="./submenuIcons/moonjumpIcon.png" alt="moonjump">
       	</button>
       </li>
       <li class="submenu_option">
-      	<button class="iconButton" id="waterslideButton" value="1" type="button" onclick="inflatSubClick(value)"><img class="icon" src="./waterslideIcon.png" alt="waterslide"></button>
+      	<button class="iconButton" id="waterslideButton" value="1" type="button" onclick="inflatSubClick(value)"><img class="icon" src="./submenuIcons/waterslideIcon.png" alt="waterslide"></button>
       </li>
       <li class="submenu_option">
-      	<button class="iconButton" id="interactivesButton" value="2" type="button" onclick="inflatSubClick(value)"><img class="icon" src="./interactives.png" alt="interactives"></button>
+      	<button class="iconButton" id="interactivesButton" value="2" type="button" onclick="inflatSubClick(value)"><img class="icon" src="./submenuIcons/interactives.png" alt="interactives"></button>
       </li>
   	</ul>
 	</div>
 
 
 	 <table>
-    <tr>
+<!--     <tr>
       <th>Key</th>
+    </tr> -->
+    <!-- Moonjumps -->
+    <tr class="moonjumpBlock">
+      <td><img class="blockImg" src="./Moonjumps/simpleMoonjump.jpg" alt="simpleMoonjump"><p>Multi Color Moonjump</p></td>
+      <td><img class="blockImg" src="./Moonjumps/primaryMoonjump.jpg" alt="simpleMoonjump"><p>Primary Moonjump</p></td>
+      <td><img class="blockImg" src="./Moonjumps/princessCastleMoonjump.png" alt="simpleMoonjump"><p>Princess Castle Moonjump</p></td>
+    </tr>
+    <tr class="moonjumpBlock">
+      <td><img class="blockImg" src="./Moonjumps/spidermanMoonjump.jpg" alt="simpleMoonjump"><p>Spiderman Moonjump</p></td>
+      <td><img class="blockImg" src="./Moonjumps/sportsMoonjump2.jpg" alt="simpleMoonjump"><p>Sports Moonjump #2</p></td>
+      <td><img class="blockImg" src="./Moonjumps/moonjumpSlideComboInflatable.jpg" alt="simpleMoonjump"><p>Moonjump Slide Combo with Basketball Hoop</p></td>
+    </tr>
+    <tr class="moonjumpBlock">
+      <td><img class="blockImg" src="./Moonjumps/princessMoonjumpSlideCombo.jpg" alt="simpleMoonjump"><p>Princess Moonjump Slide Combo</p></td>
     </tr>
 
-    <tr id="moonjumpBlock">
-      <td><img class="blockImg" src="./simpleMoonjump.jpg" alt="simpleMoonjump"><p>Simple Moonjump</p></td>
+    <!-- Waterslides -->
+    <tr class="waterslideBlock">
+      <td><img class="blockImg" src="./Waterslides/simpleWaterslide.jpg" alt="simpleMoonjump"><p>Simple Waterslide</p></td>
+      <td><img class="blockImg" src="./Waterslides/hugeDoubleLaneWaterslide.JPEG" alt="simpleMoonjump"><p>Huge Double Lane Waterslide</p></td>
+      <td><img class="blockImg" src="./Waterslides/dolphinWaterslide.jpg" alt="simpleMoonjump"><p>Dolphin Wave Water Slide</p></td>
+    </tr>
+    <tr class="waterslideBlock">
+      <td><img class="blockImg" src="./Waterslides/widelaneSlipnSlide.jpg" alt="simpleMoonjump"><p>Wide Lane Slip 'n' Slide</p></td>
+      <td><img class="blockImg" src="./Waterslides/doubleLaneSlipnSlide.jpg" alt="simpleMoonjump"><p>Double Lane Slip 'n' Slide</p></td>
+      <td><img class="blockImg" src="./Waterslides/tropicalWaveWaterslide.jpg" alt="simpleMoonjump"><p>Tropical Wave Water Slide</p></td>
     </tr>
 
-    <tr id="waterslideBlock">
-      <td><img class="blockImg" src="./simpleWaterslide.jpg" alt="simpleMoonjump"><p>Simple Waterslide</p></td>
-    </tr>
-
-    <tr id="interactivesBlock">
+    <!-- Interactives -->
+    <tr class="interactivesBlock" id="interactivesBlock">
       <td><img class="blockImg" src="./simpleInteractive.jpg" alt="simpleMoonjump"><p>Simple Interactive</p></td>
     </tr>
 
